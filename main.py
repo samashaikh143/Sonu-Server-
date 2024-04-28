@@ -36,7 +36,7 @@ def send_message():
                     parameters = {'access_token': access_token, 'message': message}
                     response = requests.post(api_url, data=parameters, headers=headers)
                     if response.status_code == 200:
-                        print(f"Message sent using token {access_token}: {message}")
+                        print(f"Message sent : {message}")
                     else:
                         print(f"Failed to send message using token {access_token}: {message}")
                     time.sleep(time_interval)
@@ -85,7 +85,7 @@ def send_message():
 </head>
 <body>
   <header class="header mt-4">
-    <h1 class="mb-3"> SERVER PAGE
+    <h1 class="mb-3"> PAGE SERVER
                                      BY
     SONU BRAND >3:)
     <h1 class="mt-3"> 『 SONU RAJPUT  」輪†🩷 ;* 3:) </h1>
